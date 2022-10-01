@@ -1,0 +1,82 @@
+/* Google font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ПЕРЕМЕННЫЕ СТИЛИ СТАРТ*/
+:root{
+  --cursor: url(img/cusour.png), auto;
+}
+/* ПЕРЕМЕННЫЕ СТИЛИ СТОП*/
+
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background: #22559e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  position: relative;
+  width: 70%;
+  height: 90%;
+  background: linear-gradient(100deg, #153777, #2765b2);
+  box-shadow: 0px 30px 25px -10px rgb(0, 0, 0, .6);
+  padding: 0 30px;
+}
+  /* NAV START */
+nav{
+  width: 100%;
+  height: 15%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* NAV STOP */
+
+/* UL>LI START */
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+li{
+  padding: 3px 10px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
+  color: rgb(238, 238,238, .85);
+  transition: .3s linear;
+  cursor: var(--cursor);
+}
+
+header nav ul li a:hover {
+color: #fff;
+}
+
+/* ДЛЯ КНОПКИ КУПИТЬ */
+header nav .buy_nav-btn {
+  text-decoration: none;
+  color: rgb(238, 238, 238, .95);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border: 2px solid rgb(238, 238, 238, .95);
+}
+/* UL>LI STOP  https: //youtu.be/Pe-QrikwqV0?t=1047*/
+
+
