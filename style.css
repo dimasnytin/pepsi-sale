@@ -37,7 +37,7 @@ header{
 nav{
   width: 100%;
   height: 15%;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -76,7 +76,89 @@ header nav .buy_nav-btn {
   font-weight: 600;
   padding: 5px 20px;
   border: 2px solid rgb(238, 238, 238, .95);
+  border-radius: 20px;
+  cursor: var(--cursor);
+  transition: .3s linear;
 }
-/* UL>LI STOP  https: //youtu.be/Pe-QrikwqV0?t=1047*/
+
+header nav .buy_nav-btn:hover{
+  color: #fff;
+  border: 2px solid #fff;
+}
+/* UL>LI STOP */
+
+/* SECTION START */
+header section{
+  width: 100%;
+  height: 85%;
+  border: 1px solid #fff;
+  display: flex;
+}
+
+header section .left_bx , .right_bx{
+  position: relative;
+  width: 60%;
+  height: 100%;
+}
+
+header section .right_bx {
+  border: 1px solid #fff;
+  width: 40%;
+}
+
+header section .left_bx{
+  padding: 40px 0 0 70px;
+}
+
+header section .left_bx .content{
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* H1 */
+header section .left_bx .content h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+header section .left_bx .content p:nth-child(2){
+  font-size: 11px;
+  color: rgb(255, 255, 255, .43);
+}
+
+header section .left_bx .content h2{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+header section .left_bx .content .nutrition_bx{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+header section .left_bx .content .nutrition_bx .card{
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: rgb(45, 113, 192, .5);
+  margin-right: 5px;
+}
+
+header section .left_bx .content .nutrition_bx .card:nth-child(1){
+  background: rgb(45, 113, 192);
+}
+
+header section .left_bx .content .nutrition_bx .card p{
+  font-size: 7px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 13px;
+  color: rgb(255, 255, 255, .7);
+}
+/* SECTION STOP */
+
+/* https: //youtu.be/Pe-QrikwqV0?t=1999 */
 
 
