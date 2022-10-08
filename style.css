@@ -9,6 +9,7 @@
 /* ПЕРЕМЕННЫЕ СТИЛИ СТАРТ*/
 :root{
   --cursor: url(img/cusour.png), auto;
+  --text: rgb(255, 255, 255, .5);
 }
 /* ПЕРЕМЕННЫЕ СТИЛИ СТОП*/
 
@@ -154,11 +155,94 @@ header section .left_bx .content .nutrition_bx .card p{
   font-size: 7px;
   text-align: center;
   font-weight: 600;
-  margin-top: 13px;
+  margin-top: 15px;
   color: rgb(255, 255, 255, .7);
+}
+
+header section .left_bx .content .nutrition_bx .card:nth-child(1) p {
+  margin-top: 5px;
+}
+
+header section .left_bx .content .nutrition_bx .card h3{
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2px;
+}
+
+header section .left_bx .content .nutrition_bx .card h6 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  background: rgb(56, 126, 206, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+header section .left_bx .content .nutrition_bx .card:nth-child(1) h6{
+  background: rgb(56, 126, 206);
+}
+
+header section .left_bx .content p:nth-child(5){
+  font-size: 10px;
+  color: var(--text);
+  margin-top: 5px;
+}
+
+header section .left_bx .content button{
+  margin-top: 30px;
+  padding: 3px 40px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  transition: .3s linear;
+  cursor: var(--cursor);
+}
+
+header section .left_bx .content button:hover{
+  background: #2765b2;
+}
+
+/* стили бутылкам пепси прозрачным */
+.item_bx{
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  margin-top: 19px;
+}
+
+.item_bx .card_pepsi{
+  width: 30px;
+  margin-right: 30px;
+  overflow: hidden;
+  cursor: var(--cursor);
+  z-index: 9999999999;
+}
+
+.item_bx .card_pepsi img{
+  width: 30px;
+  transition: .3s linear;
+}
+
+.item_bx .card_pepsi h6{
+  width: 100%;
+  text-align: center;
+  color: #2c6cbb;
+}
+
+.item_bx .card_pepsi:hover{
+
 }
 /* SECTION STOP */
 
-/* https: //youtu.be/Pe-QrikwqV0?t=1999 */
+/* RIGHT BLOCK STYLE START */
+
 
 
