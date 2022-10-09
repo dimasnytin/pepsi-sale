@@ -28,8 +28,8 @@ body{
 
 header{
   position: relative;
-  width: 70%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(100deg, #153777, #2765b2);
   box-shadow: 0px 30px 25px -10px rgb(0, 0, 0, .6);
   padding: 0 30px;
@@ -92,7 +92,7 @@ header nav .buy_nav-btn:hover{
 header section{
   width: 100%;
   height: 85%;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   display: flex;
 }
 
@@ -103,8 +103,22 @@ header section .left_bx , .right_bx{
 }
 
 header section .right_bx {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   width: 40%;
+}
+
+header section .left_bx #left_btn{
+  position: absolute;
+  left: 0;
+  top: 60px;
+  color: #fff;
+  font-size: 12px;
+  cursor: var(--cursor);
+  transition: .3s linear;
+}
+
+header section .left_bx #left_btn:hover{
+  color: #2d71c0;
 }
 
 header section .left_bx{
@@ -112,7 +126,7 @@ header section .left_bx{
 }
 
 header section .left_bx .content{
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   color: #fff;
 }
 
@@ -214,7 +228,7 @@ header section .left_bx .content button:hover{
 .item_bx{
   display: flex;
   align-items: center;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   margin-top: 19px;
 }
 
@@ -237,12 +251,94 @@ header section .left_bx .content button:hover{
   color: #2c6cbb;
 }
 
-.item_bx .card_pepsi:hover{
-
+.item_bx .card_pepsi:hover h6{
+  color: #fff;
 }
 /* SECTION STOP */
 
 /* RIGHT BLOCK STYLE START */
+.right_bx .right_btn-bx {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
 
+.right_bx .right_btn-bx span{
+  font-size: 8px;
+  font-weight: 600;
+  color: var(--text);
+  margin-right: 7px;
+}
 
+.right_bx .right_btn-bx .bi{
+  font-size: 12px;
+  cursor: var(--cursor);
+  transition: .3s linear;
+}
 
+.right_bx .right_btn-bx .bi:hover{
+  color: #2d71c0;
+}
+
+.right_bx .right_bx-img{
+  width: 500px;
+  margin: 20px 0px 0px -180px;
+}
+
+.right_bx .level{
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 30px;
+  height: 45%;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right_bx .level h6{
+  width: 8px;
+  height: 1px;
+  background: var(--text);
+  margin-top: 13px;
+}
+
+.right_bx .level h6:nth-child(3){
+  width: 18px;
+  height: 1px;
+  background: #fff;
+}
+
+/* ML_BX STYLE */
+.ml_bx{
+  position: absolute;
+  width: 110px;
+  height: 150px;
+  background: rgb(44, 138, 245);
+  bottom: 0;right: 0;color: #fff;
+  padding: 20px 0 0 20px;
+}
+
+.ml_bx p{
+  font-size: 9px;
+}
+
+.ml_bx h6 {
+  font-size: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.ml_bx h5{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background: #196db0;
+  bottom: 0;
+  left: 0;
+}
