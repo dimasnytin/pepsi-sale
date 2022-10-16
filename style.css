@@ -294,7 +294,7 @@ header section .left_bx .content button:hover{
   right: 0;
   width: 30px;
   height: 45%;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   display: flex;
   align-items: flex-end;
   justify-content: center;
