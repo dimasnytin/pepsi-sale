@@ -173,9 +173,9 @@ document.getElementById('left_btn').addEventListener('click', ()=> {
 });
 
 document.getElementById('right_btn').addEventListener('click', () => {
-  index -= 1;
+  index ++;
   if (index < 0) {
-    index = pepsi.length;
+    index = 0;
   }
 
   document.getElementById('Main_bottle').src = pepsi[index].main_poster;
